@@ -1,0 +1,12 @@
+name: MenuBox
+main: cn.jji8.MenuBox.main
+version: 1.0
+author: jianjianai
+api-version: 1.13
+commands:
+  openbox:
+    aliases: [打开菜单,dkcd,dakaicaidan]
+    description: "简单菜单插件的打开菜单命令"
+    permission: MenuBox.openbox
+    permission-message: "你没有权限执行此命令"
+    usage: /<command> 菜单名字
